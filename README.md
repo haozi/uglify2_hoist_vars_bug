@@ -1,5 +1,6 @@
 ```
 npm install
+madir dist
 ```
 
 ```
