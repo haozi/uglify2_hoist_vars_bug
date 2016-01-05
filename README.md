@@ -1,6 +1,6 @@
 ```
 npm install
-madir dist
+mkdir dist
 ```
 
 ```
