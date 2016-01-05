@@ -1,0 +1,1 @@
+!function(){var util={isEmpty:function(input){var flag=!input;if(!flag){if("object"==typeof input)if(0===input.length)flag=!0;else{flag=!0;for(var i in input){flag=!1;break}}"0"===input&&(flag=!0)}return flag}};console.log(util.isEmpty({a:1,b:2}))}(),console.log(i);
