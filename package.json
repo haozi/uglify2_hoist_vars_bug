@@ -1,0 +1,15 @@
+{
+  "name": "uglify2_hoist_vars_bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'with hoist_vars';uglifyjs src/demo.js -o dist/with_hoist_vars.js -c hoist_vars=true; node dist/with_hoist_vars.js",
+    "test2": "echo 'without hoist_vars';uglifyjs src/demo.js -o dist/without_hoist_vars.js -c hoist_vars=false; node dist/without_hoist_vars.js"
+  },
+  "author": "Jerry",
+  "license": "ISC",
+  "dependencies": {
+    "uglify-js": "^2.6.1"
+  }
+}
